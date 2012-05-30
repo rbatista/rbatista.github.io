@@ -1,0 +1,97 @@
+@font-face {
+	font-family: "Museo 700 Regular";
+	src: url("../fonts/museo700.otf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #191919 url(../imgs/bg.jpg) 50% 0 no-repeat;
+	color: #fff;
+	font-family: "Museo 700 Regular", helvetica, arial, sans-serif;
+}
+
+header {
+	visibility: hidden;
+}
+
+h1 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#page {
+	height: 95%;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 720px;
+}
+
+.summary {
+	font-size: 40px;
+	letter-spacing: -1px;
+	line-height: 1;
+}
+
+.additional, .footer {
+	color: #8c9198;
+	font-size: 18px;
+}
+
+.summary, .additional {
+	text-shadow: 1px 1px #111;
+}
+
+.additional {
+	margin: 10px 0;
+}
+
+.footer {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 720px;
+	height: 5%;
+	font-size: 13px;
+}
+
+.footer a {
+	color: #8c9198;
+}
+
+strong {
+	color: #fff000;
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	margin-right: 10px;
+}
+
+li a {
+	background: transparent no-repeat;
+	display: block;
+	height: 32px;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 32px;
+}
+
+.lattes a { background-image: url(../imgs/lattes.png); }
+.linkedin a { background-image: url(../imgs/linkedin.png); }
+.blog a { background-image: url(../imgs/blog.png); }
+.twitter a { background-image: url(../imgs/twitter.png); }
+.facebook a { background-image: url(../imgs/facebook.png); }
+.github a { background-image: url(../imgs/github.png); }
+.mail a { background-image: url(../imgs/mail.png); }
