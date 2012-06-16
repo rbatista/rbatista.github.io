@@ -25,10 +25,16 @@ h1 {
 
 #page {
 	height: 95%;
-	margin-top: 100px;
+	margin-top: 70px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 720px;
+	width: 920px;
+}
+
+#foto {
+	float: right;
+	width: 380px;
+	height: 334px;
 }
 
 .summary {
