@@ -9,9 +9,15 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     a { text-decoration: none; }
 
+    html {
+      height: 100%;
+    }
+
     body {
       background: #0f0f0f;
-      min-height: 100vh;
+      height: 100vh;
+      height: 100dvh;
+      overflow-y: auto;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -29,7 +35,6 @@
       font-weight: 700;
       color: #f0f0f0;
       margin-bottom: 10px;
-      white-space: nowrap;
       letter-spacing: -0.5px;
     }
 
@@ -53,6 +58,12 @@
     }
 
     nav a:hover { color: #fff; }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 1.9rem; }
+      p.tagline { font-size: 1rem; margin-bottom: 40px; }
+      nav a { font-size: 1.1rem; }
+    }
   </style>
 </head>
 <body>
